@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Analysis</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="data" placeholder="Enter data separated by commas" />
+        <button type="submit">Analyze Data</button>
+    </form>
+    
+    <div id="results">
+        
+    </div>
+    
+</body>
+</html>
